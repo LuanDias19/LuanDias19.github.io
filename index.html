@@ -1,58 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-br" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luan Dias Portifólio</title>
-    <meta name="description" content="Portifólio desenvolvedor front-end e banco de dados/BI Luan Dias para compartilhar projetos e experiências">
+    <meta
+      name="description"
+      content="Portifólio desenvolvedor front-end e banco de dados/BI Luan Dias para compartilhar projetos e experiências"
+    />
 
     <!-- Icon -->
-    <link rel="shortcut icon" href="./src/images/LD-light.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./src/images/LD-light.png"
+      type="image/x-icon"
+    />
 
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
 
     <!-- CSS - Style -->
-     <link rel="stylesheet" href="./src/styles/reset.css">
-     <link rel="stylesheet" href="./src/styles/main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./src/styles/main.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="header__brand">
-            <img class="brand__logo" src="src/images/LD-dark.png" alt="Logo LD">
-        </div>
-        <i class="bi bi-brightness-low"></i>
-    </header>  
-    <nav>
-        <ul class="menu menu--mobile">
-            <li class="menu__item">
-                <a class="menu__link active" href="#home">
-                    <i class="mune__icon bi bi-house-door"></i>
-                    <span class="menu__text">Home</span>
-                </a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="#projetos">
-                    <i class="mune__icon bi bi-window-stack"></i>
-                    <span class="menu__text">Projetos</span>
-                </a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="#sobre">
-                    <i class="mune__icon bi bi-person"></i>
-                    <span class="menu__text">Sobre</span>
-                </a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="#contato">
-                    <i class="mune__icon bi bi-envelope"></i>
-                    <span class="menu__text">Contato</span>
-                </a>
-            </li>
-
+      <nav class="header__nav">
+        <ul class="menu menu--principal">
+          <li class="menu__item">
+            <a class="menu__link active" href="#home">
+              <span class="menu__text">Home</span>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#projetos">
+              <span class="menu__text">Projetos</span>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#sobre">
+              <span class="menu__text">Sobre</span>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#contato">
+              <span class="menu__text">Contato</span>
+            </a>
+          </li>
         </ul>
+      </nav>
+      <div class="header__brand">
+        <a href="#home">
+          <img
+            class="brand__logo"
+            src="./src/images/LD-dark.png"
+            alt="Logo LD"
+          />
+        </a>
+      </div>
+      <div class="header__toggle">
+        <i id="toggleTheme" class="bi bi-sun"></i>
+      </div>
+    </header>
+    <nav class="nav--mobile">
+      <ul class="menu menu--mobile">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <i class="menu__icon bi bi-house-door"></i>
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <i class="menu__icon bi bi-window-stack"></i>
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <i class="menu__icon bi bi-person"></i>
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <i class="menu__icon bi bi-envelope"></i>
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
     </nav>
-    
-    <h1>Luan Dias</h1>
-</body>
+
+    <!-- Principal -->
+    <main>
+      <div>
+        <h1>Soluções Cristivas e Desenvolvimento Front-End</h1>
+        <p>Luan Dias, Limeira-SP, Procurando Uma Oportunidade na Área Tech.</p>
+
+        <ul class="menu menu--social">
+          <li>
+            <a class="menu__link" href="https://github.com/LuanDias19/LuanDias19" target="_blank">
+              <i class="menu__icon bi bi-github"></i>
+            </a>
+          </li>
+          <li>
+            <a class="menu__link" href="https://www.linkedin.com/in/luandias19/" target="_blank">
+              <i class="menu__icon bi bi-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a class="menu__link" href="mailto:lumardias07@gmail.com?subject=Dúvida%20Rápida&body=Olá, estou entrando em contato para falar sobre..." target="_blank">
+              <i class="menu__icon bi bi-envelope"></i>
+            </a>
+          </li>
+        </ul>
+        <button class="btn btn-principal">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>
+      </div>
+      <div class="main__content2">
+        <iframe src="https://www.youtube.com/embed/HbIC6c3p3Qo?si=MSvp0fJFwAE_MJw1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </main>
+
+    <script src="./src/scripts/engine.js"></script>
+  </body>
 </html>
