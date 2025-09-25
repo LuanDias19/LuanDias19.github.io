@@ -52,8 +52,14 @@ i{
     background: var(--primary-bg-color);
 }
 
+.menu__item {
+    width: 100%;
+}
+
 .menu--mobile {
     width: 100vw;
+    position: fixed;
+    bottom: 0;
     justify-content: space-between;
     border-top: 1px solid var(--border-color);
 }
@@ -63,7 +69,14 @@ i{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: .625rem
+    gap: .5rem;
+
+}
+
+.menu__link.active .menu__icon, 
+.menu__link.active .menu__text {
+    color: var(--primary-color);
+    font-weight: 600;
 }
 
 .menu__icon, .menu__text {
@@ -77,4 +90,10 @@ i{
 .menu__text {
     font-size: .75rem;
     text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .menu--mobile{
+        display: none;
+    }
 }
