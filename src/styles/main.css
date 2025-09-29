@@ -725,3 +725,10 @@ footer p {
     padding: 10rem 15rem 4rem;
   }
 }
+
+
+.logoFormacoes {
+  width: 24px;
+  background-color: #9a9a9c6b;
+  border-radius: 5px;
+}
