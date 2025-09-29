@@ -25,7 +25,6 @@ Este site foi criado para:
 - **HTML5** — Estrutura do site  
 - **CSS3** — Estilização e responsividade  
 - **JavaScript** — Interatividade e funcionalidades dinâmicas  
-- *(adicione outras tecnologias se tiver usado, ex: Bootstrap, React, etc.)*  
 
 ---
 
